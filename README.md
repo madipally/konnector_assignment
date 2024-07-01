@@ -131,11 +131,13 @@ This is a Ruby on Rails application that provides an API for managing users and 
 
 ### **List Users**
 
-    GET http://<ec2_instance_public_ip>/users
+    GET http://3.89.157.71:3000/users
+
+    <img width="1430" alt="Screenshot 2024-07-01 at 7 06 07 AM" src="https://github.com/madipally/konnector_assignment/assets/2417871/feda5bd3-6f28-4730-8234-35245411f851">
 
 ### **Add New User**
 
-    POST http://<ec2_instance_public_ip>/users
+    POST http://3.89.157.71:3000/users
     Content-Type: application/json
 
     {
@@ -144,9 +146,15 @@ This is a Ruby on Rails application that provides an API for managing users and 
       "campaigns_list": [{"campaign_name": "cam4", "campaign_id": "id4"}]
     }
 
+    <img width="1423" alt="Screenshot 2024-07-01 at 7 07 14 AM" src="https://github.com/madipally/konnector_assignment/assets/2417871/02d9d2b1-172f-4c32-820a-65c0fb67b58f">
+
+
 ### **Filter Users by Campaign Names**
 
-     GET http://<ec2_instance_public_ip>/users/filter?campaign_names=cam1,cam2
+     GET http://3.89.157.71:3000/users/filter?campaign_names=cam1,cam2
+
+     
+     <img width="1422" alt="Screenshot 2024-07-01 at 7 08 33 AM" src="https://github.com/madipally/konnector_assignment/assets/2417871/64f4f89b-fbc5-4579-90e2-219395047a62">
 
   
 
